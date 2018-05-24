@@ -1,10 +1,4 @@
 #!/usr/local/bin/python3
-###############################
-#   Bee-To-Home               #
-#                             #
-#   Benjamin Jakob, 11114701  #
-#   Jon Follmann, 11099433    #
-###############################
 
 import numpy as np
 import vector
