@@ -9,8 +9,8 @@ User Input: x and y coordinates
 Output:
 <ul>
 <li>Home vector for the position the user chooses</li>
-<li>Vector field for all positions of the grid<li>
-<li>Calculated average error for all home vectors<li>
+<li>Vector field for all positions of the grid</li>
+<li>Calculated average error for all home vectors</li>
 </ul>
 
 Execute via Terminal with:
