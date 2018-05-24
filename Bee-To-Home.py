@@ -53,6 +53,9 @@ for x in range(-7, 8):
             shiftVector = snapshot.calculateShift(homeSectors, homeGaps, newSectors, newGaps) * 3
             result = rotationVector + shiftVector
             curr_error = vector.angleBetween(result, newPosition * -1) * 180 / np.pi
+            if curr_error > 90:
+                result = result * -1
+                curr_error = vector.angleBetween(result, newPosition * -1) * 180 / np.pi
             error = error + curr_error
             plt.quiver(newPosition[0], newPosition[1], result[0], result[1], units='width')
             count += 1
