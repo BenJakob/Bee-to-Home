@@ -3,19 +3,19 @@ Implementation of an algorithm based on the paper "How honey bees use landmarks 
 
 For the specific task please take a look at the file "Task.pdf".
 
+
+
+### Execute:
 Program needs Python3 to be executed
-
-Execute via Terminal with:
-
+´´´bash
 python3 Bee-To-Home.py
-
-#### Input: 
+´´´
+### Input: 
 x and y coordinates
 
-#### Output:
+### Output:
 - Home vector for the position the user chooses
 - Vector field for all positions of the grid
 - Calculated average error for all home vectors
 
 ![Result](/Result.png)
-Format: ![Alt Text](url)
