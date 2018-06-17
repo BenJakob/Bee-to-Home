@@ -15,4 +15,7 @@ x and y coordinates
 ### Output:
 - Home vector for the position the user chose ![Result](/Result_Vector.png)
 - Vector field for all positions of the grid ![Result](/Result_Vectorfield.png)
-- Calculated average error for all home vectors: 27.24˚
+- Calculated average error for all home vectors: 
+```bash
+27.24˚
+```
